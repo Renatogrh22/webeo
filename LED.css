@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #990099;
+}
+
+h1 {
+    text-align: center;
+    font-size: 300%;
+}
+
+.ip {
+    display: block;
+    margin: 30px 10px;
+}
+
+/* Estilos CSS para el botón */
+.boton {
+    display: block;
+    text-align: center;
+    margin: 20px;
+}
+
+input[type="button"] {
+    justify-items: center;
+    padding: 10px 20px;
+    background-color: #ff2222;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="button"]:hover {
+    background-color: #bb0000;
+}
+
+input[type="button"].off {
+    background-color: #22dd22;
+}
+
+input[type="button"].off:hover {
+    background-color: #007700;
+}
+
+.button-label {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+}
